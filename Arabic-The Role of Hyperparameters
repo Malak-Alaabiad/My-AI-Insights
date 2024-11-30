@@ -1,0 +1,47 @@
+The Role of Hyperparameters: Fine-Tuning Your Machine Learning Models
+
+في ال Machine Learning، ال Hyperparameters تقدر تعتبرها كده شبه زراير الضبط اللي بتظبط بيها اي جهاز مثلاً. 
+فهي تعتبر إعدادات ممكن تظبطها عشان تاخد افضل performance من ال model.
+فإنك تلاقي ال Hyperparameters الصح ممكن يعمل فرق كبير جداً في مدى جودة اداء ال model بتاعك.
+
+What Are Hyperparameters?
+
+ال Hyperparameters هي parameters عملية التعلم نفسها، مش ال parameters الداخلية لل model اللي بيتم تعلمها من الداتا.
+إنها إعدادات انت بتحددها قبل بداية الtraining، وهي كمان بتتحكم في كيفية تعلم الmodel.
+
+Some common hyperparameters include:
+
+1. Learning Rate: مدى سرعة تحديث ال model للحاجات اللي اتعلمها
+
+2. Number of Layers/Neurons: مدى تعقيد ال model.
+
+3. Batch Size: مقدار الداتا اللي بتدخل للmodel في كل مره أثناء ال training
+
+4. Epochs: عدد المرات اللي ال model بيكون محتاجها عشان يعمل training للداتا كلها 
+
+Example 1: Learning Rate as Tuning Speed
+
+يعتبر ال learning rate واحد من أهم ال Hyperparameters. فهو بيتحكم في مدى سرعة أو بطء تعلم الmodel.
+لو ال learning rate عالي: ال model هيعدي ال predictions بسرعة كبيرة جدا ويتجاوز أفضل حل.
+
+من ناحية تانية، لو كان ال learning rate قليل جداً، هيتعلم الmodel ببطء شديد، وقد يقف قبل ما يلاقي أفضل حل.
+
+الهدف هنا هو انك تلاقي learning rate مناسب - مش سريع اوي، ولا بطئ جدًا في نفس الوقت - عشان يقدر الmodel يتعلم ويتحسن تدريجيًا من غير ما ياخد وقت طويل.
+
+ Example 2: Number of Layers/Neurons as Instrument Complexity
+
+ممكن نعتبر ال number of layers and neurons في ال neural network هو اللي بيعقد ال model بتاعك.
+
+لو كان ال model فيه layers أو neurons قليلة جدًا، هيبقي غير معقد كفاية عشان يقدر يتعلم ال patterns في الداتا اللي انت مديهاله.
+ولكن لو زودت layers أو neurons بشكل كبير جذاً، ممكن ال model يبقي معقد جدا ويبدأ في حفظ الداتا ( Overfitting ).
+
+التحدي هنا هو انك تلاقي العدد الكافي من ال layers وال neurons عشان ال model بتاعك يقدر يتعلم من الداتا.
+
+Finding the Right Tune: Hyperparameter Tuning
+
+عشان تقدر تلاقي ال Hyperparameters المثالية للداتا اللي انت شغال عليها - فإنت هتقد تجرب وتعدل وتحاول اكتر من مره لحد ما تلاقي نتيجة مُرضية، وفي ال Machine Learning ، العملية دي بيكون اسمها hyperparameter tuning.
+
+Grid Search and Random Search
+هما طريقتين عشان تظبط بيهم ال Hyperparameters. في ال Grid Search هيحاول يلاقي افضل Hyperparameters بشكل منهجي ومنظم على عكس ال Random Search هيحاول يلاقيهم بشكل عشوائي وساعات كتير بيلاقيهم بالصدفة.
+
+خلاصة كل الكلام ده بقي عشان تلاقي ال Hyperparameters الصح لازم هتدرب وتجرب كتير بس بمجرد ما تلاقيها ال model بتاعك هيكون جاهز للتعامل مع أي داتا جديدة ب accuracy عالية جدا.

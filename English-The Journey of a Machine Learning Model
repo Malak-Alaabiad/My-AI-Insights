@@ -1,0 +1,36 @@
+From Data to Insights: The Journey of a Machine Learning Model
+
+Have you ever wondered how online stores seem to know exactly what you’re looking for, even before you search for it? This isn’t magic—it's machine learning in action! In this article, we’ll walk through the journey of a machine learning model, from collecting raw data to making predictions that drive a recommendation system on an e-commerce site.
+
+Step 1: Collecting Data
+
+Everything starts with data. Think of data as the raw material for our machine learning model, just like ingredients are for a recipe. In an e-commerce setting, this data could include information about customers’ past purchases, the products they’ve browsed, their clicks, and even their ratings or reviews.
+
+For example, let’s say you run an online bookstore. You collect data on what books people buy, the genres they prefer, how often they shop, and what books they add to their wishlists. This data is the foundation of your recommendation system.
+
+Step 2: Preparing the Data
+
+Raw data is like uncut vegetables—before you can use it, you need to clean and prepare it. This step involves removing any incorrect or missing data, organizing it into a consistent format, and selecting the most relevant pieces of information for your model.
+
+Step 3: Training the Model
+
+Now comes the heart of the process: training the machine learning model. This is where the model learns patterns from the data. In our example, the model will analyze all the purchase histories to understand what kinds of books different customers like.
+
+Step 4: Evaluating the Model
+
+After the model is trained, we need to see how well it performs. This is like testing a recipe before serving it to guests—you want to make sure it tastes good! The model is tested on a separate set of data that it hasn’t seen before, to ensure it can make accurate predictions on new information.
+
+Step 5: Making Predictions
+
+With a trained and tested model, it’s time to start making predictions. This is where the model uses what it has learned to recommend products to customers. For example, when a customer who frequently buys historical fiction visits your bookstore, the model might suggest new releases in that genre or popular titles they haven’t bought yet.
+
+These recommendations appear on the website as “You might also like” or “Customers who bought this also bought” These personalized suggestions are the insights.
+
+Step 6: Continuous Learning
+
+The journey doesn’t end with the first set of predictions. The model needs to keep learning from new data to stay relevant. As more customers shop at your bookstore, their actions provide fresh data that can be fed back into the model. This continuous learning helps the model improve over time, refining its recommendations and adapting to changing customer preferences.
+
+So, the next time you see a spot-on recommendation, you’ll know the journey it took to get there!
+
+Video link:
+https://lnkd.in/dZmwB4s5
